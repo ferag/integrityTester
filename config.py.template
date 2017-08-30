@@ -1,0 +1,6 @@
+#!/usr/bin/python
+params = {'ACCESS_TOKEN': '',
+         'BASE_URL': 'root',
+         'API_URL': 'https://zenodo.org/api/deposit/depositions',
+         'OAI-PMH': 'https://zenodo.org/oai2d',
+         'OAI-PMH-ID-FORM': 'oai:zenodo.org:'}
