@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="thesis11.1" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> 
+<resource>
+<alternateIdentifier>
+10.5281/zenodo.841183
+</alternateIdentifier>
+</resource>
+
+<dataset> 
+<title>water reservoir of Cuerda del Pozo</title>
+ <creator id="1465301815644"> <individualName><salutation>Mr</salutation>
+<givenName>Jesus Marco</givenName>
+<surName>De Lucas</surName>
+</individualName>
+<organizationName>IFCA</organizationName>
+<address><deliveryPoint>Avda Castros s/n</deliveryPoint>
+<city>Santander</city>
+<postalCode>39005</postalCode>
+<country>Spain</country>
+</address>
+<electronicMailAddress>marco@ifca.unican.es</electronicMailAddress>
+</creator>
+ <associatedParty id="1465302104227"><individualName><givenName>Fernando</givenName>
+<surName>Aguilar</surName>
+</individualName>
+<organizationName>IFCA</organizationName>
+<address><deliveryPoint>Avda Castros s/n</deliveryPoint>
+<city>Santander</city>
+<postalCode>39005</postalCode>
+<country>Spain</country>
+</address>
+<electronicMailAddress>aguilarf@ifca.unican.es</electronicMailAddress>
+<role>guardian</role>
+</associatedParty>
+<abstract><para>The CTD 60 is a precision probe for oceanographic and limnological measurements of physical, chemical and optical parameters up to a depth of 2000 m. It allows the simultaneous measurement of following parameters: Pressure (depth), temperature, conductivity, raw O2, REDOX, dissolved oxygen, pH, Oxigen Saturation, Salinity.</para>
+</abstract>
+<keywordSet><keyword>measure</keyword>
+<keyword>water reservoir</keyword>
+<keyword>sensor</keyword>
+<keyword>physical and chemical parameters</keyword>
+</keywordSet>
+<coverage><geographicCoverage><geographicDescription>water reservoir</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-3.75</westBoundingCoordinate>
+<eastBoundingCoordinate>-2.375</eastBoundingCoordinate>
+<northBoundingCoordinate>42.0</northBoundingCoordinate>
+<southBoundingCoordinate>40.875</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>2010</calendarDate>
+</beginDate>
+<endDate><calendarDate>2010</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact id="1465301978258"><individualName><givenName>Daniel</givenName>
+<surName>Garcia</surName>
+</individualName>
+<organizationName>IFCA</organizationName>
+<address><deliveryPoint>Avda Castros S/N</deliveryPoint>
+<city>Santander</city>
+<postalCode>39005</postalCode>
+<country>Spain</country>
+</address>
+<electronicMailAddress>garciad@ifca.unican.es</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section><title>stationary measures</title>
+<para>measures taken at a stationary depth of about 4 meters with a CTD 60. Measurements of physical, chemical and optical parameter.</para>
+</section>
+</description>
+<instrumentation id="1872817298438">CTD60M-Probe. It allows the simultaneous measurement of following parameters: Pressure (depth), temperature, conductivity, raw O2, REDOX, dissolved oxygen, pH, Oxigen Saturation, Salinity.</instrumentation>
+</methodStep>
+</methods>
+<dataTable id="1465311292523"><entityName>AMT</entityName>
+<entityDescription>Measurement of following parameters: Pressure (depth), temperature, conductivity, raw O2, REDOX, dissolved oxygen, pH, Oxigen Saturation, Salinity.</entityDescription>
+
+<physical>
+<objectName>amt.csv</objectName>
+<size unite="bytes">4275737</size>
+<authentication>a460090d1bef1c146b76738242d64ef2</authentication>
+<encodingMethod>ASCII text</encodingMethod>
+<characterEncoding>us-ascii</characterEncoding>
+<dataFormat> 
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<numFooterLines>0</numFooterLines>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>;</fieldDelimiter>
+<quoteCharacter>"</quoteCharacter>
+</simpleDelimited>
+<recordDelimiter>\n</recordDelimiter>
+<physicalLineDelimiter>\n</physicalLineDelimiter>
+</textFormat>
+</dataFormat>
+<distribution id="amt">
+<online>
+<url function="download">https://zenodo.org/api/files/73f3573e-3dd9-48af-bca1-2e3948baeb2c/amt_2010.csv</url>
+</online></distribution>
+</physical>
+
+<project>
+<researchProjectType>
+<title>ROEM +</title>
+<personnel>Agustin Monteoliva</personnel>
+<abstract>Life + Project... eutrophication</abstract>
+<funding>EC</funding>
+<studyAreaDescription>
+<descriptor>Ecology</descriptor>
+</studyAreaDescription>
+</researchProjectType>
+</project>
+
+<attributeList>
+
+<attribute id="1465311292527">
+<attributeName>date</attributeName>
+<attributeLabel>date</attributeLabel>
+<attributeDefinition>date of measure</attributeDefinition>
+<storageType typeSystem="java">string</storageType>
+<measurementScale>
+<dateTime>
+<formatString>YYYY-MM-DD , hh:mm</formatString>
+<dateTimePrecision>1</dateTimePrecision>
+<dateTimeDomain>
+ <bounds>
+<minimum exclusive="true">2010-01-01 , 00:00</minimum>
+<maximum exclusive="true">2016-12-31 , 23:59</maximum>
+</bounds>
+</dateTimeDomain>
+</dateTime>
+</measurementScale>
+</attribute>
+
+<attribute id="1465311292531"><attributeName>Temperature</attributeName>
+<attributeLabel>Temp</attributeLabel>
+<attributeDefinition>Temperature</attributeDefinition>
+<storageType typeSystem="java">double</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>celsius</standardUnit>
+</unit>
+<precision>0.01</precision>
+<numericDomain>
+<numberType>real</numberType>
+<bounds>
+<minimum exclusive="true">-2.0</minimum>
+<maximum exclusive="true">32.0</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+<method>
+<qualityControl>
+<description>
+<para>This parameter is filtered from raw when value is less than -1.0 or higher than 35.0</para>
+</description>
+<software>
+<references>1827473819284</references>
+</software>
+</qualityControl>
+<methodStep>
+<description>
+<para>Temperature calibration</para>
+</description>
+<protocol>
+<proceduralStep>
+<description>Calibration step for temperature</description>
+</proceduralStep>
+</protocol>
+</methodStep>
+</method>
+</attribute>
+
+<attribute id="1465311292535"><attributeName>Press</attributeName>
+<attributeLabel>Press</attributeLabel>
+<attributeDefinition>Press (Depth)</attributeDefinition>
+<storageType typeSystem="java">double</storageType>
+<measurementScale><interval><unit><customUnit>dbar</customUnit>
+</unit>
+<precision>0.1</precision>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0</minimum>
+<maximum exclusive="true">50</maximum>
+</bounds>
+</numericDomain>
+</interval>
+</measurementScale>
+<method>
+<qualityControl>
+<description>
+<para>Parameter is filtered when Press * 1.02 less than 0.0 or Press * 1.02 is higher than  30.0</para>
+</description>
+<software>
+<references>1827473819284</references>
+</software>
+</qualityControl>
+</method>
+</attribute>
+
+<attribute id="1465311292539"><attributeName>Conductivity</attributeName>
+<attributeLabel>Cond</attributeLabel>
+<attributeDefinition>Conductivity of an electrolyte solution is a measure of its ability to conduct electricity. The SI unit of conductivity is siemens per meter (S/m).</attributeDefinition>
+<storageType typeSystem="java">double</storageType>
+<measurementScale><interval><unit><customUnit>mS/cm</customUnit>
+</unit>
+<precision>0.005</precision>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0</minimum>
+<maximum exclusive="true">6</maximum>
+</bounds>
+</numericDomain>
+</interval>
+</measurementScale>
+<method>
+<qualityControl>
+<description>
+<para>Parameter is filtered when is less than 0.0001 or higher than 0.3</para>
+</description>
+<software>
+<references>1827473819284</references>
+</software>
+</qualityControl>
+</method>
+</attribute>
+
+<attribute id="1465311292543"><attributeName>Salinity</attributeName>
+<attributeLabel>Salinity</attributeLabel>
+<attributeDefinition>Salinity of water cannot be measured directly by one single sensor, it is calculated from the individual sensors for pressure, temperature and conductivity</attributeDefinition>
+<storageType typeSystem="java">Double</storageType>
+<measurementScale><interval><unit><customUnit>psu</customUnit>
+</unit>
+<precision>0.0001</precision>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0</minimum>
+<maximum exclusive="true">0.1</maximum>
+</bounds>
+</numericDomain>
+</interval>
+</measurementScale>
+<method>
+<qualityControl>
+<software>
+<references>1827473819284</references>
+</software>
+</qualityControl>
+</method>
+</attribute>
+
+<attribute id="1465311292547"><attributeName>Dissolved oxygen</attributeName>
+<attributeLabel>DO</attributeLabel>
+<attributeDefinition>Dissolved oxygen refers to the level of free</attributeDefinition>
+<storageType typeSystem="java">double</storageType>
+<measurementScale><interval><unit><standardUnit>milligramsPerLiter</standardUnit>
+</unit>
+<precision>0.1</precision>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0</minimum>
+<maximum exclusive="true">20</maximum>
+</bounds>
+</numericDomain>
+</interval>
+</measurementScale>
+<method>
+<qualityControl>
+<description>
+<para>Parameter is filtered when is less than 0 and higher than 30</para>
+</description>
+<software>
+<references>1827473819284</references>
+</software>
+</qualityControl>
+</method>
+</attribute>
+
+
+<attribute id="1465311292551"><attributeName>rawO2</attributeName>
+<attributeLabel>rawO2</attributeLabel>
+<attributeDefinition>dissolved oxygen</attributeDefinition>
+<storageType typeSystem="java">double</storageType>
+<measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<precision>10</precision>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0</minimum>
+<maximum exclusive="true">5000</maximum>
+</bounds>
+</numericDomain>
+</interval>
+</measurementScale>
+<method>
+<qualityControl>
+<software>
+<references>1827473819284</references>
+</software>
+</qualityControl>
+</method>
+</attribute>
+
+
+<attribute id="1465311292555"><attributeName>Oxygen Saturation</attributeName>
+<attributeLabel>OxySat</attributeLabel>
+<attributeDefinition>relative measure of the amount of oxygen that is dissolved or carried in a given medium. %</attributeDefinition>
+<storageType typeSystem="java">double</storageType>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<precision>1</precision>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0</minimum>
+<maximum exclusive="true">120</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+<method>
+<qualityControl>
+<description>
+<para>Parameter is filtered when is less than 0  or higher than 200</para>
+</description>
+<software>
+<references>1827473819284</references>
+</software>
+</qualityControl>
+</method>
+</attribute>
+
+<attribute id="1465311292559"><attributeName>ph</attributeName>
+<attributeLabel>ph</attributeLabel>
+<attributeDefinition>numeric scale used to specify the acidity or basicity</attributeDefinition>
+<storageType typeSystem="java">double</storageType>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<precision>0.1</precision>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">4</minimum>
+<maximum exclusive="true">10</maximum>
+</bounds>
+</numericDomain>
+</ratio>
+</measurementScale>
+<method>
+<qualityControl>
+<description>
+<para>Parameter is filtered when is less tha 5 or higher than10</para>
+</description>
+<software>
+<references>1827473819284</references>
+</software>
+</qualityControl>
+</method>
+</attribute>
+
+<attribute id="1465311292563"><attributeName>Redox</attributeName>
+<attributeLabel>redox</attributeLabel>
+<attributeDefinition>Redox</attributeDefinition>
+<storageType typeSystem="java">double</storageType>
+<measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<precision>10</precision>
+<numericDomain><numberType>real</numberType>
+<bounds><minimum exclusive="true">0</minimum>
+<maximum exclusive="true">5000</maximum>
+</bounds>
+</numericDomain>
+</interval>
+</measurementScale>
+<method>
+<qualityControl>
+<software>
+<references>1827473819284</references>
+</software>
+</qualityControl>
+</method>
+</attribute>
+</attributeList>
+</dataTable>
+</dataset>
+
+<software id="1827473819284">
+<title>Peaks Detector</title>
+<abstract>
+<para>Detects and filter peaks from parameters defined in a CSV file </para>
+</abstract>
+<creator>
+<references>1465302104227</references>
+</creator>
+<implementation>
+<distribution>
+<offline>
+<mediumName>doriiie02 Server HDD</mediumName>
+</offline>
+</distribution>
+<programmingLanguage>Python 2.7.3</programmingLanguage>
+</implementation>
+<license>GPL</license>
+<version>1.0</version>
+</software>
+
+ <additionalMetadata><metadata><unitList><unit id="dbar" multiplierToSI="0,0001" name="dbar" parentSI="pascal" unitType="pressure"><description>decibar, Units derived from the bar.</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="mS/cm" multiplierToSI="10" name="mS/cm" parentSI="ohmMeter" unitType="resistivity"><description>Conductivity of an electrolyte solution is a measure of its ability to conduct electricity. The SI unit of conductivity is siemens per meter (S/m).</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+<additionalMetadata><metadata><unitList><unit id="psu" multiplierToSI="0.001" name="psu" parentSI="gramsPerGram" unitType="massPerMass"><description>practical salinity unit</description>
+</unit>
+</unitList>
+</metadata>
+</additionalMetadata>
+</eml:eml>
