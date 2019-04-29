@@ -5,7 +5,7 @@ This script is a prototype to measure Datasets and metadata stored in a reposito
 The script loads config.py to get the following information:
 
  - ACCESS_TOKEN: Token to communicate with repository API.
- - ONEDATA:ACCESS_TOKEN: Onedata Token to communicate with onedata API.
+ - ONEDATA_ACCESS_TOKEN: Onedata Token to communicate with onedata API.
  - ONEDATA_API_URL: Endpoint for onedata cdmi API.
  - API_URL: API endpoint for repository.
  - OAI-PMH: OAI-PMH protocol endpoint (from repository, if it is compatible).
