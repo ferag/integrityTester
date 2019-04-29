@@ -1,6 +1,7 @@
 #!/usr/bin/python
 params = {'ACCESS_TOKEN': '',
          'ONEDATA_ACCESS_TOKEN': '',
+         'ONEDATA_API_URL': '',
          'BASE_URL': 'root',
          'API_URL': 'https://zenodo.org/api/deposit/depositions',
          'OAI-PMH': 'https://zenodo.org/oai2d',
